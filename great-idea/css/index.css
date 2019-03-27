@@ -56,6 +56,9 @@ h1, h2, h3, h4, h5 {
 	letter-spacing: 1px;
 	margin-bottom: 15px;
 }
+p {
+	font-family: 'Montserrat', sans-serif;
+}
 
 .container {
 	width: 880px;
@@ -63,18 +66,48 @@ h1, h2, h3, h4, h5 {
 }
 
 header {
-	margin-top: 4%;
+	margin: 4% 0;
 }
 
 nav {
+	width:880px;
+	padding:1%;
 	align-items: center;
 	display: flex;
 	justify-content: space-between;
+	background:#838B8B;
+	position: fixed;
+	z-index: 1;
 }
 
 nav a {
-	color: grey;
+	color: white;
 	text-decoration-line: none;
+	font-size:1rem;
+	
+}
+nav:hover{
+	box-shadow:2px 4px #000000; 
+}
+nav a:hover {
+	color: black;
+	animation-name: expanding;
+	animation-duration: 2000ms;
+	transform-origin: 0% 0%;
+	animation-iteration-count: 2;
+	
+}
+
+@keyframes expanding {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.2);
+	}
+	100% {
+		transform: scale(1);
+	}
 }
 
 .logo {
@@ -82,13 +115,15 @@ nav a {
 }
 
 .cta {
-	padding-top: 5%;
+	padding-top: 15%;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
+	
 }
 
 .cta-div {
+	padding
 	display: flex;
 	flex-direction: column;
 	text-align: center;
