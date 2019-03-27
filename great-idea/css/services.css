@@ -1,0 +1,140 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    margin: 4% 0;
+    padding-bottom: 4%;
+    border-bottom: 1px solid black;
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: grey;
+    text-decoration-line: none;
+}
+
+.logo {
+    margin-left: 5%;
+}
+
+.services-header-img {
+    margin-top: 3%;
+    width:100%;
+}
+
+.services {
+    margin-top: 4%;
+}
+
+.parent-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.parent-div div {
+    margin: 2% 0%;
+    width: 48%;
+    border: 1px solid black;
+    padding: 2%;
+    background: lightgray;
+}
+
+button {
+    padding: 2% 7% 2%;
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 4%;
+}
+
+.bottom-content {
+    display: flex;
+    margin-top: 4%;
+    padding-top: 4%;
+    border-top: 1px solid black;
+}
+
+.facts {
+    margin-right: 4%;
+}
+
+ul {
+    margin-top: 4%;
+    padding-top: 2%;
+    list-style-type: square;
+}
+
+ul li {
+    padding-top: 3%;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 10%;
+}
