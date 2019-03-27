@@ -57,8 +57,10 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 p {
-	font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    
 }
+
 
 .container {
 	width: 880px;
@@ -69,10 +71,10 @@ p {
 
 nav {
 	width:880px;
-	padding:1%;
+	padding:1% 0;
 	align-items: center;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	background:#838B8B;
 	position: fixed;
 	z-index: 1;
@@ -119,9 +121,15 @@ nav a:hover {
 
 .services {
     margin-top: 4%;
+    padding-bottom:4%;
+    border-bottom:1px solid black;
+    
 }
-
+.services p{
+    font-family: 'Titillium Web', sans-serif;
+}
 .parent-div {
+    margin-top:2%;
     display: flex;
     justify-content: space-between;
 }

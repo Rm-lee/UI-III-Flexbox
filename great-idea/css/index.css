@@ -69,10 +69,10 @@ p {
 
 nav {
 	width:880px;
-	padding:1%;
+	padding:1% 0;
 	align-items: center;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	background:#838B8B;
 	position: fixed;
 	z-index: 1;
