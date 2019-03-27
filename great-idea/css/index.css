@@ -86,7 +86,7 @@ nav a {
 	
 }
 nav:hover{
-	box-shadow:2px 4px #000000; 
+	box-shadow:2px 4px 5px #000000; 
 }
 nav a:hover {
 	color: black;

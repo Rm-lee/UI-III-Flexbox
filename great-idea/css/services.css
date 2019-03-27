@@ -87,7 +87,7 @@ nav a {
 	
 }
 nav:hover{
-	box-shadow:2px 4px #000000; 
+	box-shadow:2px 4px 5px #000000; 
 }
 nav a:hover {
 	color: black;
@@ -128,11 +128,7 @@ nav a:hover {
 .services p{
     font-family: 'Titillium Web', sans-serif;
 }
-.parent-div {
-    margin-top:2%;
-    display: flex;
-    justify-content: space-between;
-}
+
 
 .parent-div div {
     margin: 2% 0%;
@@ -150,13 +146,7 @@ button {
     margin-top: 4%;
 }
 
-.bottom-content {
-    display: flex;
-    margin-top: 4%;
-    padding-top: 4%;
-    border-top: 1px solid black;
-    justify-content: space-between;
-}
+
 
 .facts {
     width: 48%;
@@ -183,3 +173,53 @@ ul li {
     text-align: center;
     margin-top: 10%;
 }
+@media only screen and (max-width: 600px) {
+     
+        .parent-div {
+            width:100vw;
+            margin-left:25vw;
+            margin-top:2%;
+            display: flex;
+            flex-direction:column;
+            justify-content: space-around;
+            
+        }
+        
+
+        .bottom-content {
+
+            display: flex;
+            flex-direction:column;
+            margin-top: 4%;
+            padding-top: 4%;
+            border-top: 1px solid black;
+            justify-content: space-around;
+        }
+
+        .services{
+            width:100vw;
+        }
+        .services-header-img{
+            width:100vw;
+        }
+    }
+  
+
+  @media only screen and (min-width: 600px) {
+    
+       .parent-div {
+           margin-top:2%;
+           display: flex;
+           justify-content: space-between;
+       }
+
+
+       .bottom-content {
+        display: flex;
+        margin-top: 4%;
+        padding-top: 4%;
+        border-top: 1px solid black;
+        justify-content: space-between;
+    }
+   }
+ 
