@@ -56,62 +56,59 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
 p {
     font-family: 'Montserrat', sans-serif;
-    
 }
-
 
 .container {
-	width: 880px;
-	margin: 0 auto;
+    width: 880px;
+    margin: 0 auto;
 }
 
-
-
 nav {
-	width:880px;
-	padding:10px 0;
-	align-items: center;
-	display: flex;
-	justify-content: space-around;
-	background:#838B8B;
-	position: fixed;
-	z-index: 1;
+    width: 880px;
+    padding: 10px 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    background: #838B8B;
+    position: fixed;
+    z-index: 1;
 }
 
 nav a {
-	color: white;
-	text-decoration-line: none;
-	font-size:1rem;
-	
+    color: white;
+    text-decoration-line: none;
+    font-size: 1rem;
 }
-nav:hover{
-	box-shadow:2px 4px 5px #000000; 
+
+nav:hover {
+    box-shadow: 2px 4px 5px #000000;
 }
+
 nav a:hover {
-	color: black;
-	animation-name: expanding;
-	animation-duration: 2000ms;
-	transform-origin: 0% 0%;
-	animation-iteration-count: 2;
-	
+    color: black;
+    animation-name: expanding;
+    animation-duration: 2000ms;
+    transform-origin: 0% 0%;
+    animation-iteration-count: 2;
 }
 
 @keyframes expanding {
-	0% {
-		transform: scale(1);
-	}
-	50% {
-		transform: scale(1.2);
-	}
-	100% {
-		transform: scale(1);
-	}
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 .logo {
-	margin-left: 5%;
+    margin-left: 5%;
 }
 
 .services-header-img {
@@ -121,14 +118,13 @@ nav a:hover {
 
 .services {
     margin-top: 4%;
-    padding-bottom:4%;
-    border-bottom:1px solid black;
-    
-}
-.services p{
-    font-family: 'Titillium Web', sans-serif;
+    padding-bottom: 4%;
+    border-bottom: 1px solid black;
 }
 
+.services p {
+    font-family: 'Titillium Web', sans-serif;
+}
 
 .parent-div div {
     margin: 2% 0%;
@@ -145,8 +141,6 @@ button {
     border-radius: 5px;
     margin-top: 4%;
 }
-
-
 
 .facts {
     width: 48%;
@@ -173,55 +167,46 @@ ul li {
     text-align: center;
     margin-top: 10%;
 }
+
 @media only screen and (max-width: 600px) {
-     .container{
-         width:100vw;
-     }
-        .parent-div {
-            width:100vw;
-            margin-left:25vw;
-            margin-top:2%;
-            display: flex;
-            flex-direction:column;
-            justify-content: space-around;
-            
-        }
-        
-
-        .bottom-content {
-
-            display: flex;
-            flex-direction:column;
-            margin-top: 4%;
-            padding-top: 4%;
-            border-top: 1px solid black;
-            justify-content: space-around;
-        }
-
-        .services{
-            width:100vw;
-        }
-        .services-header-img{
-            width:100vw;
-        }
+    .container {
+        width: 100vw;
     }
-  
+    .parent-div {
+        width: 100vw;
+        margin-left: 25vw;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .bottom-content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 4%;
+        padding-top: 4%;
+        border-top: 1px solid black;
+        justify-content: space-around;
+    }
+    .services {
+        width: 100vw;
+    }
+    .services-header-img {
+        width: 100vw;
+    }
+}
 
-  @media only screen and (min-width: 600px) {
-    
-       .parent-div {
-           margin-top:2%;
-           display: flex;
-           justify-content: space-between;
-       }
-
-
-       .bottom-content {
+@media only screen and (min-width: 600px) {
+    .parent-div {
+        margin-top: 2%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .bottom-content {
         display: flex;
         margin-top: 4%;
         padding-top: 4%;
         border-top: 1px solid black;
         justify-content: space-between;
     }
-   }
- 
+}

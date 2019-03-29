@@ -56,6 +56,7 @@ h1, h2, h3, h4, h5 {
 	letter-spacing: 1px;
 	margin-bottom: 15px;
 }
+
 p {
 	font-family: 'Montserrat', sans-serif;
 }
@@ -65,16 +66,13 @@ p {
 	margin: 0 auto;
 }
 
-
-
 nav {
-	width:880px;
-	padding:10px 0;
-
+	width: 880px;
+	padding: 10px 0;
 	align-items: center;
 	display: flex;
 	justify-content: space-around;
-	background:#838B8B;
+	background: #838B8B;
 	position: fixed;
 	z-index: 1;
 }
@@ -82,19 +80,19 @@ nav {
 nav a {
 	color: white;
 	text-decoration-line: none;
-	font-size:1rem;
-	
+	font-size: 1rem;
 }
-nav:hover{
-	box-shadow:2px 4px 5px #000000; 
+
+nav:hover {
+	box-shadow: 2px 4px 5px #000000;
 }
+
 nav a:hover {
 	color: black;
 	animation-name: expanding;
 	animation-duration: 2000ms;
 	transform-origin: 0% 0%;
 	animation-iteration-count: 2;
-	
 }
 
 @keyframes expanding {
@@ -118,11 +116,10 @@ nav a:hover {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
-	
 }
 
 .cta-div {
-	padding
+	padding-top: 15%;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
